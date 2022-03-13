@@ -8,9 +8,14 @@ distribution, and modification of the software. In my case, it is just the use
 of the software. The min version of Papa Parse is included in this repo as a
 resource, and Chart.js is used with an ajax call.
 
-To run, simply extract the "DecisionPoint Challenge" repo (if zipped),
+To run, simply extract the "DecisionPoint-Challenge" repo (if zipped),
 navigate to the root of the directory, and double click on the
-"HelloCrypto.html" file.
+"HelloCrypto.html" file. The main page will launch in your default browser.
+You may then chose the provided csv file (also located in 
+DecisionPoint-Challenge/Resources), and click "submit". From there, a
+line chart will appear that displays the various crypto currency datasets
+from the csv. You can mouse over any datapoint to get more specific
+information for that date.
 
 One improvement I would add if I had unlimited time to work on this would be
 to make the code flexible enough to work with any number of different

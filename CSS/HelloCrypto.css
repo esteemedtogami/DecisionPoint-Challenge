@@ -25,7 +25,7 @@ body{
 
 /* Formats the div containing the canvas*/
 #canvasDiv{
-    max-width: 1920px;
-    max-height: 1080px;
+    max-width: 1200px;
+    max-height: 800px;
     margin: 10px auto;
 }
