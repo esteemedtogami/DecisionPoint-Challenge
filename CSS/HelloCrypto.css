@@ -15,9 +15,14 @@ body{
     text-align: center;
 }
 
+#fileUploadAndSubmit{
+    max-width: 350px;
+    max-height: 50px;
+    margin: 10px auto;
+}
+
 #canvasDiv{
     max-width: 1000px;
     max-height: 700px;
-    margin: 0 auto;
-    background-color: white;
+    margin: 10px auto;
 }

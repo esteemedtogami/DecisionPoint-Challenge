@@ -20,6 +20,14 @@
             <h1>Crypto Prices</h1>
         </div>
 
+        <!-- File upload button and submit button -->
+        <div id="fileUploadAndSubmit" onsubmit="parseAndDisplayCrypto();return false">
+            <form action="#">
+                <input type="file" id="cryptoCSV" name="cryptoFile">
+                <input type="submit">
+            </form>
+        </div>
+
         <div id="canvasDiv">
             <!-- Setup canvas for the line chart -->
             <canvas id="cryptoChart"></canvas>
@@ -28,6 +36,10 @@
 
         <!-- Call to Chart.js -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+        <!-- Use Papa Parse to read from CSV -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="Resources/papaparse.min.js"></script>
 
         <!-- JS source -->
         <script src="JS/HelloCrypto.js"></script>
