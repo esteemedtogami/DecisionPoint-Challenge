@@ -11,7 +11,7 @@ resource, and Chart.js is used with an ajax call.
 To run, simply extract the "DecisionPoint-Challenge" repo (if zipped),
 navigate to the root of the directory, and double click on the
 "HelloCrypto.html" file. The main page will launch in your default browser.
-You may then chose the provided csv file (also located in 
+You may then choose the provided csv file (also located in 
 DecisionPoint-Challenge/Resources), and click "submit". From there, a
 line chart will appear that displays the various crypto currency datasets
 from the csv. You can mouse over any datapoint to get more specific
