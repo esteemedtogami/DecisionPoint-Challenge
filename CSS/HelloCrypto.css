@@ -1,0 +1,23 @@
+/*
+    Last Updated March 13, 2022
+    Copyright (C) 2022 Sam Pickell
+    HelloCrypto Coding Challenge - Home page (Styling)
+*/
+
+/* Sets the background color */
+body{
+    background-image: linear-gradient(green, red);
+  	background-repeat: repeat-x;
+    min-height: 100vh;
+}
+
+#pageTitle{
+    text-align: center;
+}
+
+#canvasDiv{
+    max-width: 1000px;
+    max-height: 700px;
+    margin: 0 auto;
+    background-color: white;
+}
